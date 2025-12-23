@@ -76,7 +76,7 @@ If you wish to build the project from source:
    npx expo start
 
 
-**Made with ❤️ by Pratyush & Team**
+**Made with ❤️ by Pratyush & Team PARADOX**
 ### Final Step after pasting:
 After you save this file, run these commands one last time to push the README to GitHub so it appears on your main page:
 
