@@ -1,0 +1,51 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* FORCE Light Mode (Fixes the black screen issue) */
+  color-scheme: light;
+  color: #1e293b;
+  background-color: #f1f5f9; /* Matches your Dashboard background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* RESET Body to fill the screen */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: block; /* Removes the "place-items: center" that was breaking it */
+  overflow-x: hidden;
+}
+
+/* RESET Root to allow full width */
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+/* Ensure padding doesn't break widths */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Basic Link Styles */
+a {
+  font-weight: 500;
+  color: #4f46e5;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #4338ca;
+}
